@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Paginación</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Listado y paginación de productos</h1>
+    <div id="content-products" class="container form-inline justify-content-between"></div>
+    <div id="show-pages" class="col-12 border p-2 form-inline justify-content-center mt-3"></div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+    <script>
+        window.onload = function() {
+            getProducts(0);
+            getPaginacion();
+        }
+    </script>
+</body>
+
+
+</html>

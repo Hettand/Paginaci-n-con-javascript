@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: powderblue;
+    margin-top: 0;
+    padding: 10px;
+}
+
+img {
+    height: 150px;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
